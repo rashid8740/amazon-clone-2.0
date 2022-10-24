@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Banner from "../components/Banner";
 import ProductFeed from "../components/ProductFeed";
 
-export default function Home({products}) {
+export default function Home({ products }) {
   return (
     <div className="bg-gray-100">
       <Head>
@@ -31,4 +31,3 @@ export async function getServerSideProps(context) {
     },
   };
 }
-
